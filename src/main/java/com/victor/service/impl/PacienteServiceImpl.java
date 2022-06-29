@@ -37,7 +37,8 @@ public class PacienteServiceImpl implements IPacienteService{
 
 	@Override
 	public void eliminar(Integer id) {
-		repo.deleteById(id);	
+		repo.deleteById(id);
+		
 	}
 
 	@Override
